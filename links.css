@@ -1,0 +1,11 @@
+* {
+	background: url("pics/arnold.png");
+	background-size:100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	font-size:100px;
+}
+p {
+	color:white;
+}

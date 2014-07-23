@@ -1,0 +1,215 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of reset*/
+
+body {
+	display:block;
+}
+
+* {
+	/*outline:1px solid white;*/
+
+}
+body {
+		background: transparent url("pics/arnold.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+}
+
+p {
+	color:white;
+	font-family: Arial, sans-serif;
+}
+div {
+	display:block;
+}
+#navbar {
+
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 30px;
+	position: relative;
+	width: 900px;
+	height: 60px;
+	padding:5px;
+}
+#navbar ul {
+	
+	list-style-type: none;
+	
+}
+#navbar li {
+	margin-left:25px;
+	padding-right:20px;
+	display:inline;
+	vertical-align: middle;
+	line-height: 60px;
+}
+#navbar a {
+	
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-family: Arial, sans-serif;
+
+
+}
+#navbar a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+
+}
+#container {
+	
+	display:inline-block;
+	width:750px;
+	margin-top:50px;
+	margin-left:18%;
+	
+}
+#welcome {
+	padding-top:35px;
+	padding-bottom:20px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#welcome p {
+	font-size:50px;
+}
+
+#mainContent {
+	position: relative;
+	
+}
+#mainContent p {
+	color:#EEEDF2;
+	padding-top:16px;
+	font-size:30px;
+	font-family:Arial;
+}
+
+#sideBar {
+	
+	position:absolute;
+	top:100px;
+	bottom:50px;
+
+	right:-500px;
+	width:450px;
+	
+	
+}
+
+#sideBar p {
+	color:#F1F2E6;
+	padding-top:26px;
+	font-size: 20px;
+}
+
+#contact {
+	bottom:0;
+	height:300px;
+	padding-top:100px;
+}
+#contactContainer {
+	
+	width:960px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+#contactContainer h1 {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 32px;
+	color:gray;
+	padding-bottom: 30px;
+}
+#contactContainer div {
+	vertical-align: middle;
+	display:inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	color:gray;
+	height: 250px;
+	width:300px;
+	margin-left:12px;
+	margin-top: 20px;
+}
+#location {
+	padding-left: 10px;
+}
+#contactContainer div h2 {
+
+	margin-bottom: 20px;
+	text-align: center;
+	color:white;
+	font-size: 25px;
+}
+#contactContainer div p {
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 5px;
+	color:white;
+	font-size: 20px;
+
+}
+#contactContainer a {
+	display:block;
+	text-decoration: none;
+	text-align: center;
+	color:#DFDEE3;
+	
+}
+#contactContainer a:hover{
+	color:#DFDEE3;
+	display:block;
+	text-align: center;
+	font-weight: bold;
+	
+
+}
